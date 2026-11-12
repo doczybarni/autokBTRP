@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+
+img{
+    width:100%
+}
+
+main{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-areas: "h  h"
+                        "n  n"
+                        "ar as"
+                        "f  f";
+}
+
+header{
+    grid-area: h;
+    color: green;
+}
+
+footer{
+    grid-area: f;
+    color: green;
+    text-align: center;
+}
+
